@@ -1,3 +1,7 @@
+environment:
+  my_variable:
+    secure: bLWC8g5rhXdBcHHlpDf/2Zuvb96sDCv6zcvrdk12FBwXKwJP505X6iBYBmTE88cy
+
 image: Ubuntu2004  # образ для сборки
 
 stack: node 18  # окружение
