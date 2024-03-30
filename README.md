@@ -1,5 +1,5 @@
 # Домашнее задание к занятию "4.Организация тестирования"
-[![Build status](https://ci.appveyor.com/api/projects/status/l7eoqy10ylttouuh?svg=true)](https://ci.appveyor.com/project/patvit/e2e-hw)
+[![Build status](https://ci.appveyor.com/api/projects/status/9c52k6s5rin5qa8h?svg=true)](https://ci.appveyor.com/project/patvit/e2e-hw)
 
 
 Правила сдачи задания:
