@@ -42,7 +42,7 @@
     "webpack-cli": "^5.1.4",
     "webpack-merge": "^5.8.0"
   },
-  "repository": "https://github.com/patvit/e2e-hw.git",
+  "repository": "git@github.com:patvit/e2e-hw.git",
   "dependencies": {
     "core-js": "^3.31.1",
     "webpack": "^5.88.1",
