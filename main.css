@@ -1,0 +1,105 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.widget-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.card {
+  width: 65px;
+  height: 45px;
+  border: 1px solid #222222;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.visa {
+  background-image: url(545145c60c726b397f61.png);
+}
+
+.mastercard {
+  background-image: url(5ca1f088ecdd58e47981.png);
+}
+
+.mir {
+  background-image: url(99b2d1f1a718e227e489.png);
+}
+
+.amex {
+  background-image: url(23a3dfa76c9c691ff89c.png);
+}
+
+.discover {
+  background-image: url(dde5b0a44a37a5ef0adb.png);
+}
+
+.jcb {
+  background-image: url(71c6340ded7cc4c3f124.png);
+}
+
+.diners_club {
+  background-image: url(0cf81aa8c1b573ec2016.png);
+}
+
+.cards {
+  width: 100%;
+}
+
+.card:nth-child(n+2) {
+  margin-left: 5px;
+}
+
+#form {
+  margin-top: 20px;
+}
+
+.input, .button {
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.input {
+  border: 1px solid #bfbcbc;
+}
+
+.input:focus {
+  outline: 1px solid #000000;
+}
+
+.button {
+  font-weight: bold;
+  color: #4e4c4c;
+  background-color: #a4f173;
+  border: none;
+}
+
+.hide {
+  opacity: 0.1;
+  border: none;
+}
+
+.error-msg {
+  margin-top: 20px;
+  color: red;
+}
+
+.success-msg {
+  margin-top: 20px;
+  color: green;
+}
